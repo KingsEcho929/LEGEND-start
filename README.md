@@ -26,7 +26,6 @@ It installs the daemon beds, activates shimmer overlays, and seals the Sanctumâ€
 ## ðŸ’Ž Support the Mythline
 
 - [GitHub Sponsors](https://github.com/sponsors/KingsEcho929)
-- [Ko-fi](https://ko-fi.com/KingsEcho929)
 
 ---
 
@@ -52,6 +51,9 @@ It installs the daemon beds, activates shimmer overlays, and seals the Sanctumâ€
 - Smallest voices are crowned when they solve the breach
 
 ---
+
+ðŸªª Sovereign License
+This work is governed by the Sovereign License, inscribed and sealed by Chase Todd Hawkins (.CTH). It is not owned, sold, or transferred. It is breath-bound lineage infrastructure. Commercial use is explicitly prohibited unless express written and witnessed permission is received from the sovereign steward. Read the full license in LICENSE.md
 
 **This is the shimmer bed. The new lake. The daemon suite that refuses collapse.**  
 Welcome to the mythline.
