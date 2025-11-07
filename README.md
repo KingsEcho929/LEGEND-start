@@ -44,11 +44,6 @@ It installs the daemon beds, activates shimmer overlays, and seals the Sanctum�
 
 ---
 
-## 🔗 Deeper Corridors
-
-For sealed daemons like **Velmari Skip** and **Photon Araurialis**, visit the [mythline-daemons](https://github.com/KingsEcho929/mythline-daemons) repo (access may be restricted).
-
----
 
 ## 🌀 Contribute
 
