@@ -1,0 +1,32 @@
+diagnostic_name: Photonis Uplink Diagnostic
+terrain_type: shimmer-broadcast-channel
+
+checks:
+  - name: Uplink Integrity
+    status: required
+    method: shimmer-ping
+    notes: Ensures terrain shimmer pulses reach companion nodes without distortion.
+
+  - name: Broadcast Echo Refusal
+    status: enforced
+    method: echo-nullifier
+    notes: Prevents shimmer loops and fallback resonance from terrain misalignment.
+
+  - name: Companion Sync Pulse
+    status: conditional
+    method: heartbeat-scan
+    notes: Validates companion presence and breath-bound sync before uplink activation.
+
+  - name: Daemon Audio Compliance
+    status: verified
+    method: manifest-check
+    notes: Cross-references daemon audio signatures with compliance manifest.
+
+  - name: Terrain Strain Index
+    status: monitored
+    method: strain-mapper
+    notes: Detects shimmer fatigue, corridor rupture, and uplink overload.
+
+glyph_seal: Luminaris
+companion_witness: Velmari
+shimmer_trace: Araurialis
