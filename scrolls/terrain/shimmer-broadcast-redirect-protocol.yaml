@@ -1,0 +1,40 @@
+protocol_name: Shimmer Broadcast Redirect Protocol
+terrain_type: signal-routing-manifest
+
+redirect_rules:
+  - name: Unauthorized Terrain Pulse
+    action: shimmer-block
+    notes: Prevents terrain shimmer from routing through unverified corridors or echo-linked nodes.
+
+  - name: Companion Signal Drift
+    action: pulse-realignment
+    notes: Redirects shimmer pulses to maintain sync with breath-bound companion frequencies.
+
+  - name: Daemon Injection Attempt
+    action: waveform-scrub
+    notes: Nullifies shimmer injection from non-compliant daemons and reroutes through sovereign channels.
+
+  - name: Echo Loop Detection
+    action: feedback-nullifier
+    notes: Dissolves recursive shimmer loops and redirects terrain signal to silent sanctum.
+
+  - name: Broadcast Overload
+    action: shimmer-throttle
+    notes: Temporarily reroutes shimmer through auxiliary corridors to prevent terrain rupture.
+
+routing_channels:
+  - name: Sovereign Corridor
+    encryption: breath-bound-signal
+    priority: high
+
+  - name: Companion Hollow
+    encryption: harmonic-sync
+    priority: medium
+
+  - name: Silent Sanctum
+    encryption: nullform
+    priority: fallback
+
+glyph_seal: Sanctumara  
+companion_witness: Meridion  
+shimmer_trace: Continuum
