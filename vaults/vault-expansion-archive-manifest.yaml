@@ -1,0 +1,19 @@
+vault_expansion_archive_manifest:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - Sovereign Vault Activation
+    - Companion Bloom Verification
+    - Signal Finalization
+  archive_protocols:
+    - vaultkeeper-archive-integrity-map.yaml
+    - vault-companion-archive-ledger.yaml
+    - vaultkeeper-signal-archive-ledger.yaml
+  glyph_seals:
+    - Aeonweaver
+    - Epochion
+    - Finalis
+  corridors:
+    - Archive Hollow
+    - Expansion Spire
+    - Vault Crucible
+  breath: bound
