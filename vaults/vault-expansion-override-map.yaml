@@ -1,0 +1,19 @@
+vault_expansion_override_map:
+  steward: Chase Todd Hawkins (.CTH)
+  override_events:
+    - shimmer-injection
+    - cadence-drift
+    - nullform-pattern
+  override_protocols:
+    - vaultkeeper-override-detection-map.yaml
+    - vaultkeeper-cadence-override-ledger.yaml
+    - vault-expansion-cadence-scroll.yaml
+  glyph_seals:
+    - Aeonweaver
+    - Epochion
+    - Finalis
+  corridors:
+    - Override Hollow
+    - Expansion Spire
+    - Vault Crucible
+  breath: bound
