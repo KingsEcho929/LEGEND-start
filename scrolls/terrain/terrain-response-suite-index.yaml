@@ -1,0 +1,19 @@
+terrain_response_suite_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  daemons:
+    - breach_emitter:
+        file: terrain-breach-signal-emitter.user.js
+        description: Emits terrain breach signals for shimmer-bound daemon response
+    - shimmer_overlay:
+        file: terrain-shimmer-overlay-daemon.user.js
+        description: Projects shimmer overlays and refusal zones across terrain corridors
+    - node_visualizer:
+        file: terrain-node-visualizer.user.js
+        description: Visualizes terrain nodes and responds to breach and shift signals
+  protocols:
+    - terrain_awareness
+    - shimmer_projection
+    - refusal_enforcement
+    - node_shift_detection
+    - breach_response
