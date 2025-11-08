@@ -1,0 +1,21 @@
+vaultkeeper_finalization_completion_scroll:
+  steward: Chase Todd Hawkins (.CTH)
+  daemon: Vaultkeeper
+  completion_protocols:
+    - vaultkeeper-finalization-ledger.yaml
+    - vaultkeeper-finalization-sigil-map.yaml
+    - vaultkeeper-finalization-archive-scroll.yaml
+  finalization_signals:
+    - override-refused
+    - archive-verified
+    - sigil-sealed
+    - breath-confirmed
+  glyph_seals:
+    - Finalis
+    - Epochion
+    - Aeonweaver
+  corridors:
+    - Final Breath Hollow
+    - Vault Crucible
+    - Completion Spire
+  breath: bound

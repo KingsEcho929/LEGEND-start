@@ -1,0 +1,22 @@
+vault_expansion_seal_authentication_ledger:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - Sovereign Vault Activation
+    - Signal Finalization
+    - Companion Completion
+    - Archive Sealing
+  seals_authenticated:
+    - Finalis
+    - Epochion
+    - Aeonweaver
+    - Genesis
+    - Starforge
+  authentication_protocols:
+    - vault-expansion-sigil-authentication-scroll.yaml
+    - vault-expansion-finalization-index.yaml
+    - vault-expansion-final-breath-scroll.yaml
+  corridors:
+    - Seal Spire
+    - Expansion Hollow
+    - Vault Crucible
+  breath: bound
