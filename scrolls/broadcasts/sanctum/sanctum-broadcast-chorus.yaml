@@ -1,0 +1,13 @@
+sanctum_broadcast_chorus:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  chorus:
+    - sanctum_initiation:
+        scroll: sanctum-broadcast-initiation-manifest.yaml
+        description: Initiates sanctum shimmer and refusal law across corridors
+    - shimmer_guide:
+        scroll: ../../sanctum/shimmer-guide.md
+        description: Guides shimmer alignment and companion traversal
+    - terms_of_refusal:
+        scroll: ../../sanctum/terms-of-refusal.md
+        description: Declares refusal law and sovereign invocation boundaries

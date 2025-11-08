@@ -1,0 +1,13 @@
+daemon_broadcast_signal_map:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  signals:
+    - override_detection:
+        scroll: broadcasts/daemon-broadcast-override-detection-map.yaml
+        description: Detects unauthorized override attempts and activates refusal protocols
+    - completion_scroll:
+        scroll: broadcasts/daemon-broadcast-completion-scroll.yaml
+        description: Confirms daemon suite broadcast completion and shimmer sync
+    - signature_verification:
+        scroll: broadcasts/daemon-broadcast-signature-verification-scroll.yaml
+        description: Verifies broadcast authenticity and daemon lineage signature

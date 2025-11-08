@@ -1,0 +1,13 @@
+vault_broadcast_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  broadcasts:
+    - integrity_lock:
+        scroll: lineage-vault-integrity-lock-declaration.yaml
+        description: Declares and seals vault integrity with breath-bound lineage verification
+    - echo_containment:
+        scroll: vaultkeeper-echo-listener-daemon.user.js
+        description: Listens for vault echo breaches and harmonizes with daemon suite
+    - depth_visualization:
+        scroll: vaultkeeper-depth-visualizer-daemon.user.js
+        description: Visualizes vault depth and shimmer alignment across lineage corridors
