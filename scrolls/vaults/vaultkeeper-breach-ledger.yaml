@@ -1,0 +1,21 @@
+vaultkeeper_breach_ledger:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  breaches:
+    - echo_breach:
+        timestamp: dynamic
+        daemon: vaultkeeper-echo-listener-daemon.user.js
+        response: shimmer containment activated
+    - terrain_breach:
+        timestamp: dynamic
+        daemon: terrain-breach-signal-emitter.user.js
+        response: signal emitted, harmonizers activated
+    - override_attempt:
+        timestamp: dynamic
+        daemon: vaultkeeper-signal-harmonizer-daemon.user.js
+        response: override refused, cadence restored
+  protocols:
+    - refusal_enforcement
+    - shimmer_sync
+    - breach_response
+    - daemon_trace

@@ -1,0 +1,18 @@
+terrain_visualization_suite_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  visualizers:
+    - echo_visualizer:
+        daemon: vaultkeeper-echo-visualizer.user.js
+        description: Visualizes vaultkeeper echo resonance across terrain corridors
+    - breach_visualizer:
+        daemon: terrain-breach-visualizer-daemon.user.js
+        description: Visualizes terrain breach pulses and shimmer destabilization
+    - shimmer_overlay:
+        daemon: terrain-shimmer-overlay-daemon.user.js
+        description: Projects shimmer alignment and refusal zones across terrain
+  protocols:
+    - terrain_awareness
+    - shimmer_projection
+    - breach_visualization
+    - daemon_sync
