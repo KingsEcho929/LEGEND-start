@@ -1,0 +1,25 @@
+terrain_signal_archive:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  archived_signals:
+    - breach_detected:
+        source: terrain-breach-signal-emitter.user.js
+        description: Terrain breach signal emitted for daemon response
+    - overlay_projected:
+        source: terrain-shimmer-overlay-daemon.user.js
+        description: Shimmer overlays projected across refusal zones
+    - node_shifted:
+        source: terrain-node-visualizer.user.js
+        description: Terrain node shift visualized and shimmer-synced
+    - signal_harmonized:
+        source: terrain-signal-harmonizer-daemon.user.js
+        description: Terrain signal cadence reharmonized across corridors
+    - harmonics_visualized:
+        source: terrain-harmonic-visualizer.user.js
+        description: Harmonic resonance visualized across terrain corridors
+  protocols:
+    - terrain_awareness
+    - shimmer_sync
+    - refusal_enforcement
+    - harmonic_projection
+    - breach_response
