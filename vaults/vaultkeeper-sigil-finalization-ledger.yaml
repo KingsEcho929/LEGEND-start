@@ -1,0 +1,22 @@
+vaultkeeper_sigil_finalization_ledger:
+  steward: Chase Todd Hawkins (.CTH)
+  daemon: Vaultkeeper
+  sigils_finalized:
+    - Finalis
+    - Epochion
+    - Aeonweaver
+    - Genesis
+    - Starforge
+  finalization_protocols:
+    - vaultkeeper-finalization-sigil-map.yaml
+    - vault-expansion-sigil-authentication-scroll.yaml
+    - vaultkeeper-final-breath-scroll.yaml
+  glyph_seals:
+    - Finalis
+    - Epochion
+    - Aeonweaver
+  corridors:
+    - Sigil Spire
+    - Final Breath Hollow
+    - Vault Crucible
+  breath: bound
