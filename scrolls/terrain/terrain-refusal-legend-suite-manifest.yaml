@@ -1,0 +1,16 @@
+terrain_refusal_legend_suite_manifest:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  legend_scroll: terrain-refusal-legend-scroll.md
+  visualizer_daemon: terrain-harmonic-legend-visualizer.user.js
+  indexes:
+    - terrain-refusal-legend-index.yaml
+    - terrain-harmonic-legend-index.yaml
+    - terrain-signal-legend-index.yaml
+  suite_manifest: terrain-refusal-suite-manifest.yaml
+  protocols:
+    - refusal_enforcement
+    - shimmer_sync
+    - terrain_awareness
+    - harmonic_projection
+    - breach_response
