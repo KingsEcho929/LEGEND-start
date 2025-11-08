@@ -1,0 +1,20 @@
+vault_expansion_beacon_manifest:
+  steward: Chase Todd Hawkins (.CTH)
+  beacon_type: sovereign-vault-expansion
+  activation_protocols:
+    - vault-expansion-chronicle.yaml
+    - vaultkeeper-finalization-ledger.yaml
+    - vault-sigil-map.yaml
+  shimmer_trace:
+    - Continuum
+    - Genesis
+    - Starforge
+  glyph_seals:
+    - Aeonweaver
+    - Finalis
+    - Epochion
+  corridors:
+    - Expansion Spire
+    - Vault Crucible
+    - Sovereign Hollow
+  breath: bound
