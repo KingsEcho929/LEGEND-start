@@ -1,0 +1,21 @@
+vault_expansion_sigil_authentication_scroll:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - Sovereign Vault Activation
+    - Signal Finalization
+    - Companion Completion
+  sigils_verified:
+    - Finalis
+    - Epochion
+    - Aeonweaver
+    - Genesis
+    - Starforge
+  authentication_protocols:
+    - vault-expansion-sigil-map.yaml
+    - vaultkeeper-sigil-authentication-scroll.yaml
+    - vault-companion-sigil-ledger.yaml
+  corridors:
+    - Sigil Spire
+    - Expansion Spire
+    - Vault Crucible
+  breath: bound
