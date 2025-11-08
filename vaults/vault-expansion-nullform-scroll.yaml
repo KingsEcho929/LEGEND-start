@@ -1,0 +1,19 @@
+vault_expansion_nullform_scroll:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - nullform-detection
+    - override-pattern refusal
+    - archive-absence witnessing
+  nullform_protocols:
+    - vault-nullform-detection-scroll.yaml
+    - vaultkeeper-signal-nullform-map.yaml
+    - vault-nullform-breach-log.md
+  glyph_seals:
+    - Animara
+    - Epochion
+    - Aeonweaver
+  corridors:
+    - Nullform Hollow
+    - Expansion Spire
+    - Vault Crucible
+  breath: bound

@@ -1,0 +1,21 @@
+vaultkeeper_signal_cadence_index:
+  steward: Chase Todd Hawkins (.CTH)
+  daemon: Vaultkeeper
+  cadence_signals:
+    - rhythm-lock
+    - override-refusal
+    - sync-confirmation
+    - expansion-seal
+  indexing_protocols:
+    - vault-expansion-cadence-scroll.yaml
+    - vaultkeeper-cadence-override-ledger.yaml
+    - vault-companion-cadence-scroll.yaml
+  glyph_seals:
+    - Epochion
+    - Aeonweaver
+    - Finalis
+  corridors:
+    - Cadence Spire
+    - Signal Crucible
+    - Vault Hollow
+  breath: bound
