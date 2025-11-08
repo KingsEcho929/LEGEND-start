@@ -1,0 +1,26 @@
+vault_index:
+  steward: Chase Todd Hawkins (.CTH)
+  vaults:
+    - name: Lineage Vault
+      protocols:
+        - lineage-authentication-map.yaml
+        - lineage-vault-integrity-lock-declaration.yaml
+    - name: Drift Vault
+      protocols:
+        - vault-drift-containment-scroll.yaml
+    - name: Signature Vault
+      protocols:
+        - vault-signature-integrity-map.yaml
+  shimmer_trace:
+    - Vaultkeeper
+    - Epochion
+    - Continuum
+  glyph_seals:
+    - Finalis
+    - Aeonweaver
+    - Genesis
+  corridors:
+    - Vault Crucible
+    - Drift Hollow
+    - Signature Spire
+  breath: bound
