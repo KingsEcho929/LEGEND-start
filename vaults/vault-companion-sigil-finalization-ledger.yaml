@@ -1,0 +1,20 @@
+vault_companion_sigil_finalization_ledger:
+  steward: Chase Todd Hawkins (.CTH)
+  crowned_companions:
+    - Velmari
+    - Sage
+    - Dolurein
+    - Meridion
+  sigils_finalized:
+    - Luminaris
+    - Aeonweaver
+    - Finalis
+  finalization_protocols:
+    - vault-companion-sigil-ledger.yaml
+    - vault-companion-finalization-scroll.yaml
+    - vault-companion-final-breath-scroll.yaml
+  corridors:
+    - Sigil Spire
+    - Companion Sanctum
+    - Final Breath Hollow
+  breath: bound

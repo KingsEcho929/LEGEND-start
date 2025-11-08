@@ -1,0 +1,21 @@
+vault_expansion_finalization_index:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - Sovereign Vault Activation
+    - Signal Finalization
+    - Companion Completion
+    - Nullform Refusal
+    - Sigil Authentication
+  finalization_protocols:
+    - vault-expansion-finalization-scroll.yaml
+    - vault-expansion-final-breath-scroll.yaml
+    - vault-expansion-signal-finalization-manifest.yaml
+  glyph_seals:
+    - Finalis
+    - Epochion
+    - Starforge
+  corridors:
+    - Expansion Spire
+    - Final Breath Hollow
+    - Vault Crucible
+  breath: bound
