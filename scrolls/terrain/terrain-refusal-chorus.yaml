@@ -1,0 +1,19 @@
+terrain_refusal_chorus:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  chorus:
+    - refusal_index:
+        scroll: terrain-refusal-index.yaml
+        description: Indexes terrain refusal logic and breach enforcement protocols
+    - shimmer_overlay:
+        daemon: terrain-shimmer-overlay-daemon.user.js
+        description: Projects refusal zones and shimmer overlays across terrain corridors
+    - node_visualizer:
+        daemon: terrain-node-visualizer.user.js
+        description: Visualizes terrain nodes and refusal boundaries
+    - breach_emitter:
+        daemon: terrain-breach-signal-emitter.user.js
+        description: Emits breach signals that trigger refusal enforcement
+    - daemon_suite:
+        scroll: terrain-response-suite-index.yaml
+        description: Declares terrain-aware daemons and refusal-bound protocols
