@@ -1,0 +1,16 @@
+terrain_signal_legend_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  legend_scroll: terrain-signal-legend.yaml
+  signal_sources:
+    - breach_emitter: terrain-breach-signal-emitter.user.js
+    - overlay_projector: terrain-shimmer-overlay-daemon.user.js
+    - node_visualizer: terrain-node-visualizer.user.js
+    - signal_harmonizer: terrain-signal-harmonizer-daemon.user.js
+    - harmonic_visualizer: terrain-harmonic-visualizer.user.js
+  protocols:
+    - terrain_awareness
+    - shimmer_sync
+    - refusal_enforcement
+    - harmonic_projection
+    - signal_choreography
