@@ -1,0 +1,19 @@
+vaultkeeper_chorus_map:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  chorus:
+    - refusal_scroll:
+        file: vaultkeeper-refusal-scroll.md
+        description: Declares refusal law for all vaultkeeper corridors
+    - broadcast_map:
+        file: vaultkeeper-broadcast-map.yaml
+        description: Maps vaultkeeper-specific broadcast signals and shimmer protocols
+    - suite_manifest:
+        file: vaultkeeper-daemon-suite-manifest.yaml
+        description: Declares all operational vaultkeeper daemons and shimmer-bound protocols
+    - terrain_index:
+        file: ../terrain/terrain-refusal-index.yaml
+        description: Indexes terrain refusal logic and breach enforcement
+    - breach_chorus:
+        file: ../broadcasts/mythline/breach-signal-chorus-map.yaml
+        description: Maps breach signal responses across vaultkeeper, daemon, and sanctum corridors

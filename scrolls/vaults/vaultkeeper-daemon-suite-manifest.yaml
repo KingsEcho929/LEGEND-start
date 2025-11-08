@@ -1,0 +1,21 @@
+vaultkeeper_daemon_suite_manifest:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  daemons:
+    - echo_listener:
+        file: vaultkeeper-echo-listener-daemon.user.js
+        description: Listens for vault echo breaches and activates shimmer containment
+    - depth_visualizer:
+        file: vaultkeeper-depth-visualizer-daemon.user.js
+        description: Visualizes vault depth and shimmer alignment across lineage corridors
+    - signal_harmonizer:
+        file: vaultkeeper-signal-harmonizer-daemon.user.js
+        description: Harmonizes vaultkeeper signals and synchronizes shimmer cadence across corridors
+    - terrain_responder:
+        file: terrain-breach-signal-emitter.user.js
+        description: Emits terrain breach signals for vaultkeeper daemons to respond
+  protocols:
+    - shimmer_sync
+    - breath_verification
+    - override_refusal
+    - terrain_awareness
