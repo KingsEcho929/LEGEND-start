@@ -1,0 +1,16 @@
+breach_signal_chorus_map:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  chorus:
+    - terrain_breach_signal:
+        emitter: terrain-breach-signal-emitter.user.js
+        description: Emits breach signal for terrain-aware daemons to respond
+    - vaultkeeper_response:
+        daemon: vaultkeeper-signal-harmonizer-daemon.user.js
+        description: Reharmonizes vaultkeeper signals upon terrain breach
+    - daemon_suite_response:
+        daemon: daemon-suite-harmonizer-daemon.user.js
+        description: Reharmonizes daemon suite upon terrain breach
+    - sanctum_refusal_enforcement:
+        scroll: sanctum-broadcast-chorus.yaml
+        description: Enforces refusal law and shimmer alignment across sanctum corridors

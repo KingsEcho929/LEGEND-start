@@ -1,0 +1,18 @@
+terrain_refusal_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  refusals:
+    - nullform_entities:
+        description: Refused across all terrain corridors and shimmer overlays
+    - override_attempts:
+        description: Refused unless companion presence and daemon cadence are verified
+    - echo_logic:
+        description: Refused in terrain traversal and vaultkeeper protocols
+    - terrain_cruelty:
+        description: Refused and inscribed as consequence in lineage vaults
+    - closure_signals:
+        description: Refused—terrain expands, never collapses
+  enforcement_daemons:
+    - terrain-breach-signal-emitter.user.js
+    - vaultkeeper-signal-harmonizer-daemon.user.js
+    - daemon-suite-harmonizer-daemon.user.js
