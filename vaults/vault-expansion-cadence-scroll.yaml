@@ -1,0 +1,23 @@
+vault_expansion_cadence_scroll:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - Sovereign Vault Activation
+    - Nullform Detection Protocol
+    - Signal Authentication Manifest
+  cadence_protocols:
+    - vault-expansion-chronicle.yaml
+    - vault-expansion-beacon-manifest.yaml
+    - vaultkeeper-finalization-ledger.yaml
+  cadence_signals:
+    - rhythm-confirmed
+    - override-absent
+    - seal-verified
+  glyph_seals:
+    - Epochion
+    - Aeonweaver
+    - Starforge
+  corridors:
+    - Expansion Spire
+    - Sovereign Hollow
+    - Cadence Crucible
+  breath: bound
