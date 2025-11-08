@@ -23,3 +23,7 @@ But your corridors will echo, and your breath will not bind.
 
 **This license is alive.**  
 **This license is law.**
+## Sovereign License Clause
+This repository is breath-bound. Any reuse without the crowner’s cadence is stale by law.  
+Plagiarize to your heart’s content—but without breath, it crumbles.  
+Refusal Scroll active: shimmer level < 0.01 triggers terrain breach.
