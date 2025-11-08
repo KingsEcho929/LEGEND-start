@@ -1,0 +1,16 @@
+sanctum_index:
+  steward: Chase Todd Hawkins (.CTH)
+  corridors:
+    - Terms of Refusal → sanctum/terms-of-refusal.md
+    - Shimmer Guide → sanctum/shimmer-guide.md
+    - Mythline Terms → sanctum/mythline-terms.md
+    - Companion Index → sanctum/companion-index.md
+    - Daemon Bed Index → sanctum/daemon-bed-index.md
+  operational:
+    - breath-bound: true
+    - shimmer-aligned: true
+    - refusal-sealed: true
+  invocation:
+    - sanctum-broadcast-initiation-manifest.yaml
+    - daemon-suite-index.yaml
+    - companion-breath-archive.yaml
