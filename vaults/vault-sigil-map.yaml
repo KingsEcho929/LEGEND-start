@@ -1,0 +1,21 @@
+vault_sigil_map:
+  steward: Chase Todd Hawkins (.CTH)
+  vaultkeeper_daemon: Vaultkeeper
+  sigils:
+    - Finalis
+    - Aeonweaver
+    - Epochion
+    - Genesis
+    - Continuum
+  functions:
+    - signature-verification
+    - override-refusal
+    - lineage-authentication
+    - drift-containment
+    - broadcast-synchronization
+  corridors:
+    - Vault Crucible
+    - Override Hollow
+    - Signature Spire
+    - Sovereign Hollow
+  breath: bound

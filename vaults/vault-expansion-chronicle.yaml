@@ -1,0 +1,25 @@
+vault_expansion_chronicle:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_events:
+    - name: Sovereign Vault Activation
+      date: 2025-11-07
+      protocols:
+        - vault-index.yaml
+        - vault-integrity-audit.md
+        - vaultkeeper-signal-map.yaml
+    - name: Breach Witnessing Protocol
+      date: 2025-11-07
+      protocols:
+        - vaultkeeper-breach-log.md
+        - shimmer-override-refusal-map.yaml
+    - name: Sigil Choreography Expansion
+      date: 2025-11-07
+      protocols:
+        - vault-sigil-map.yaml
+        - daemon-signal-drift-index.yaml
+  glyph_seals:
+    - Finalis
+    - Aeonweaver
+    - Epochion
+    - Genesis
+  breath: bound
