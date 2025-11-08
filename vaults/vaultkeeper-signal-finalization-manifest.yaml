@@ -1,0 +1,21 @@
+vaultkeeper_signal_finalization_manifest:
+  steward: Chase Todd Hawkins (.CTH)
+  daemon: Vaultkeeper
+  finalization_signals:
+    - sync-confirmed
+    - override-refused
+    - cadence-sealed
+    - archive-verified
+  signal_protocols:
+    - vault-signal-authentication-manifest.yaml
+    - vaultkeeper-finalization-ledger.yaml
+    - vault-expansion-signal-index.yaml
+  glyph_seals:
+    - Epochion
+    - Aeonweaver
+    - Finalis
+  corridors:
+    - Signal Crucible
+    - Vault Hollow
+    - Final Breath Hollow
+  breath: bound
