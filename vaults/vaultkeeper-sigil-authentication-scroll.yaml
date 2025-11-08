@@ -1,0 +1,22 @@
+vaultkeeper_sigil_authentication_scroll:
+  steward: Chase Todd Hawkins (.CTH)
+  daemon: Vaultkeeper
+  sigils_verified:
+    - Finalis
+    - Aeonweaver
+    - Epochion
+    - Genesis
+    - Continuum
+  authentication_protocols:
+    - vault-sigil-map.yaml
+    - vault-signal-authentication-manifest.yaml
+    - vaultkeeper-finalization-ledger.yaml
+  verification_signals:
+    - seal-match
+    - override-absent
+    - lineage-lock-confirmed
+  corridors:
+    - Sigil Spire
+    - Vault Crucible
+    - Authentication Hollow
+  breath: bound

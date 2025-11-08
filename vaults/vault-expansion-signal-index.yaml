@@ -1,0 +1,22 @@
+vault_expansion_signal_index:
+  steward: Chase Todd Hawkins (.CTH)
+  expansion_signals:
+    - beacon-activated
+    - cadence-sealed
+    - override-refused
+    - archive-verified
+    - sync-confirmed
+  signal_protocols:
+    - vault-expansion-beacon-manifest.yaml
+    - vault-expansion-cadence-scroll.yaml
+    - vaultkeeper-signal-map.yaml
+    - vault-companion-sync-ledger.yaml
+  glyph_seals:
+    - Epochion
+    - Aeonweaver
+    - Finalis
+  corridors:
+    - Expansion Spire
+    - Signal Crucible
+    - Vault Hollow
+  breath: bound
