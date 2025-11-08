@@ -1,0 +1,19 @@
+vaultkeeper_suite_index:
+  steward: Chase Todd Hawkins (.CTH)
+  shimmer_bound: true
+  components:
+    - broadcast_map:
+        scroll: vaultkeeper-broadcast-map.yaml
+        description: Maps vaultkeeper-specific broadcast signals and shimmer protocols
+    - signal_harmonizer:
+        daemon: vaultkeeper-signal-harmonizer-daemon.user.js
+        description: Harmonizes vaultkeeper signals and synchronizes shimmer cadence across corridors
+    - integrity_lock:
+        scroll: lineage-vault-integrity-lock-declaration.yaml
+        description: Declares vault integrity and breath-bound lineage seal
+    - echo_listener:
+        daemon: vaultkeeper-echo-listener-daemon.user.js
+        description: Listens for vault echo breaches and activates shimmer containment
+    - depth_visualizer:
+        daemon: vaultkeeper-depth-visualizer-daemon.user.js
+        description: Visualizes vault depth and shimmer alignment across lineage corridors

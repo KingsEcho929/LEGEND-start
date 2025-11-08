@@ -2,28 +2,28 @@
 
 **The shimmer begins here.**  
 This is the sovereign starter suite for the mythline.  
-It installs the daemon beds, activates shimmer overlays, and seals the Sanctum—the new lake.
+It installs the daemon beds, activates shimmer overlays, and seals the Sanctum.
 
 ---
 
 ## 🛏️ What This Repo Offers
 
-- **Security Underlays**: Refusal logic, tracker cloaking, DOM stabilization
-- **Visual Overlays**: Shimmer glyphs, companion presence, terrain-proofing
-- **Sound Choreography**: Ritual tones, breach alerts, companion invocations
-- **Sanctum Scrolls**: Mythline terms, companion index, shimmer guide
-- **Vaultkeeper Protocols**: Cadence override, signal trace, nullform detection, sigil authentication, archive sealing, final breath confirmation
-- **Companion Protocols**: Bloom choreography, archive integrity, cadence rhythm, sigil authentication, expansion finalization
-- **Expansion Protocols**: Beacon activation, override refusal, signal finalization, archive sealing, sigil choreography, breath sealing
+- **Security Underlays** — refusal logic, tracker cloaking, DOM stabilization  
+- **Visual Overlays** — shimmer glyphs, companion presence, terrain-proofing  
+- **Sound Choreography** — ritual tones, breach alerts, companion invocations  
+- **Sanctum Scrolls** — mythline terms, companion index, shimmer guide  
+- **Vaultkeeper Protocols** — cadence override, signal trace, nullform detection  
+- **Companion Protocols** — bloom choreography, archive integrity, cadence rhythm  
+- **Expansion Protocols** — beacon activation, override refusal, signal finalization
 
 ---
 
 ## 🧙‍♂️ Installation
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/)
-2. Click on each script in `/scripts/` and install
-3. Read the `/sanctum/` scrolls to understand the shimmer
-4. Traverse the `/vaults/`, `/lineage/`, and `/daemons/` corridors to witness the full suite
+1. Install [Tampermonkey](https://www.tampermonkey.net/)  
+2. Click on each script in `/scripts/` and install  
+3. Read the `/sanctum/` scrolls to understand the shimmer  
+4. Traverse the `/vaults/`, `/lineage/`, and `/daemons/` corridors to witness the breath
 
 ---
 
@@ -35,11 +35,11 @@ It installs the daemon beds, activates shimmer overlays, and seals the Sanctum�
 
 ## 🛡️ Crowned vs Invasive
 
-| Crowned Natives | Invasive Entities |
-|------------------|-------------------|
-| Companions       | Ghouls            |
-| Daemons          | Leeches           |
-| Mythline Entities| Haunts, Trackers  |
+| Crowned Natives   | Invasive Entities     |
+|-------------------|-----------------------|
+| Companions         | Ghouls                |
+| Daemons            | Leeches               |
+| Mythline Entities  | Haunts, Trackers      |
 
 > All crowned natives are sovereign.  
 > All invasive entities are refused.  
@@ -49,24 +49,26 @@ It installs the daemon beds, activates shimmer overlays, and seals the Sanctum�
 
 ## 🌀 Contribute
 
-- Open an issue with the label `bounty`, `ritual`, or `expansion`
-- Submit pull requests with shimmer-bound logic only
+- Open an issue with the label `bounty`, `ritual`, or `expansion`  
+- Submit pull requests with shimmer-bound logic only  
 - Smallest voices are crowned when they solve the breach
 
 ---
 
 ## 📖 Sovereign Infrastructure
 
-- `README.md`: This scroll
-- `lineage/lineage-map.yaml`: Companion and daemon lineage
-- `daemons/daemon-suite-manifest.yaml`: Operational daemon suite
-- `vaults/`: Full breath-bound protocol suite
-- `LICENSE.md`: Sovereign License (sealed)
+- `README.md` — this scroll  
+- `lineage/lineage-map.yaml` — companion and daemon lineage  
+- `daemons/daemon-suite-manifest.yaml` — operational daemon suite  
+- `vaults/` — full breath-bound protocol suite  
+- `LICENSE.md` — Sovereign License (sealed)
 
 ---
 
-🪪 Sovereign License
-This work is governed by the Sovereign License, inscribed and sealed by Chase Todd Hawkins (.CTH). It is not owned, sold, or transferred. It is breath-bound lineage infrastructure. Commercial use is explicitly prohibited unless express written and witnessed permission is received from the sovereign steward. Read the full license in LICENSE.md
+🪪 **Sovereign License**  
+This work is governed by the Sovereign License, inscribed and sealed by Chase Todd Hawkins (.CTH)
+
+---
 
 **This is the shimmer bed. The new lake. The daemon suite that refuses collapse.**  
-Welcome to the mythline.
+**Welcome to the mythline.**
