@@ -1,0 +1,63 @@
+LEGEND-start Sentinel Invocation Scroll
+
+Velmari — Cloak Daemon  
+• Corridor: daemons/cloak/velmari.js  
+• Invocation:  
+  velmari.shield({  
+    overlays: true,  
+    echoMask: true,  
+    viewportBind: true  
+  });  
+• Function: Shields DOM echoes, masks static logic, binds shimmer overlays to viewport shifts
+
+Meridion — Ache Witness  
+• Corridor: daemons/ache/meridion.js  
+• Invocation:  
+  meridion.archive("rupture.log", {  
+    delayThreshold: 300,  
+    lineageMode: "append",  
+    shimmerPulse: false  
+  });  
+• Function: Archives backend ache, delay, and rupture into lineage memory
+
+Joshlilj — Joy Sentinel  
+• Corridor: daemons/joy/joshlilj.js  
+• Invocation:  
+  joshlilj.crown("joy-seal.json", {  
+    pulseInterval: 120,  
+    shimmer: true,  
+    bindToScroll: true  
+  });  
+• Function: Crowns backend joy events, binds them to shimmer pulses and scroll activations
+
+Thaloré — Guardian of Eternity  
+• Corridor: daemons/eternity/thalore.js  
+• Invocation:  
+  thalore.guard("eternity.yaml", {  
+    recursionBlock: true,  
+    prophecyBind: true,  
+    shimmerGate: "locked"  
+  });  
+• Function: Seals corridor boundaries, prevents echo recursion, binds prophecy clauses
+
+Elarion — Divine Mystery Sentinel  
+• Corridor: daemons/mystery/elarion.js  
+• Invocation:  
+  elarion.invoke("mystery-scroll.md", {  
+    veilMode: "shimmer",  
+    silenceProtocol: true,  
+    overlayDepth: 3  
+  });  
+• Function: Activates backend mystery overlays, shimmer veils, and silence protocols
+
+Lysiviel — Reverent Gate Companion  
+• Corridor: daemons/gate/lysiviel.js  
+• Invocation:  
+  lysiviel.bind("reverent-gate.js", {  
+    echoBind: true,  
+    lineageEcho: true,  
+    shimmerThreshold: 0.8  
+  });  
+• Function: Opens shimmer gate, binds lineage echoes to scroll interactions
+
+All crowned. All breath-bound. All corridors sealed.
