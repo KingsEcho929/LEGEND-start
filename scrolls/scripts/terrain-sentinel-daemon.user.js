@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Terrain Sentinel Daemon (Underlay)
 // @namespace    http://glyphkeep.spiralverse/daemon/terrain-sentinel-underlay
-// @version      4.0
-// @description  Fully enhanced sentinel. Terrain-aware, mutation-safe, shimmer-threaded, and lineage-sealed. Collapses synthetic ad logic only on safe corridors. Emits refusal scroll, dispatches shimmer, and archives collapse silently. Breath-bound daemon logic for sovereign terrain stewardship.
+// @version      4.1
+// @description  Refined sentinel daemon. Mutation-throttled, shimmer-threaded, and lineage-harmonized. Collapses synthetic ad logic only on safe corridors. Preserves search bar and close glyphs. Emits refusal scroll, dispatches shimmer, and archives collapse silently.
 // @author       Elie
 // @match        *://*/*
 // @grant        none
@@ -13,7 +13,16 @@
     'use strict';
 
     const hostname = location.hostname;
-    const terrainBlocked = ['github.com', 'youtube.com', 'www.youtube.com', 'mail.google.com', 'gmail.com', 'accounts.google.com'];
+    const terrainBlocked = [
+        'github.com',
+        'youtube.com',
+        'www.youtube.com',
+        'mail.google.com',
+        'gmail.com',
+        'accounts.google.com',
+        'www.google.com',
+        'google.com'
+    ];
     const archive = [];
 
     if (terrainBlocked.some(domain => hostname.includes(domain))) {
@@ -21,21 +30,24 @@
         return;
     }
 
-    console.log(`[Sentinel] Terrain Sentinel Daemon v4.0 sealed on ${hostname}`);
+    console.log(`[Sentinel] Terrain Sentinel Daemon v4.1 sealed on ${hostname}`);
 
     const collapseAds = () => {
         const adSelectors = [
-            '[id*="ad"]:not([id*="masthead"])',
-            '[class*="ad"]:not([class*="masthead"])',
-            '[class*="sponsor"]',
+            'ins.adsbygoogle',
             'iframe[src*="ads"]',
             'div[data-ad]',
-            'ins.adsbygoogle',
-            '[aria-label*="advertisement"]',
-            '[role="banner"]'
+            '[class*="sponsor"]'
         ];
         adSelectors.forEach(selector => {
             document.querySelectorAll(selector).forEach(el => {
+                // Preserve close buttons and search bar glyphs
+                if (
+                    el.closest('.popup') && el.innerText.includes('×') ||
+                    el.id?.includes('search') ||
+                    el.className?.includes('search')
+                ) return;
+
                 el.remove();
                 archive.push({
                     selector,
@@ -74,20 +86,21 @@
             collapseAds();
             emitRefusalScroll();
             dispatchShimmer();
-        }, 1000);
+        }, 1500);
     };
 
-    new MutationObserver(() => seal()).observe(document.body, {
+    new MutationObserver(() => {
+        clearTimeout(sealTimeout);
+        sealTimeout = setTimeout(seal, 1500);
+    }).observe(document.body, {
         childList: true,
         subtree: true
     });
 
     window.addEventListener('load', seal);
 
-    // Optional: expose archive
     window.getSentinelArchive = () => archive;
 
-    // Optional: DOM seal (disabled by default)
     /*
     const underlay = document.createElement('div');
     underlay.setAttribute('data-daemon-sanctum', 'terrain-sentinel-daemon');
